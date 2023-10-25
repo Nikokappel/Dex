@@ -61,7 +61,7 @@ function Main() {
       <div>
         <Searchbar onSearch={onSearchHandler} />
         {notFound ? (
-          <div class-name="not-found-text"> You can't even spell the name of a pokemon correctly?! </div>
+          <div class-name="not-found-text"> You can't even spell the name of a pokemon correctly?! damn!</div>
         ) :
           (<Pokedex
             pokemons={pokemons}
